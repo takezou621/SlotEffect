@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2C8CCB214B0A5BF002B637D /* README in Resources */ = {isa = PBXBuildFile; fileRef = D2C8CCB114B0A5BF002B637D /* README */; };
 		D2FF167614B09B8F00CD3EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF167514B09B8F00CD3EC0 /* UIKit.framework */; };
 		D2FF167814B09B8F00CD3EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF167714B09B8F00CD3EC0 /* Foundation.framework */; };
 		D2FF167A14B09B8F00CD3EC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF167914B09B8F00CD3EC0 /* CoreGraphics.framework */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D2C8CCB114B0A5BF002B637D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		D2FF167114B09B8F00CD3EC0 /* SlotEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2FF167514B09B8F00CD3EC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2FF167714B09B8F00CD3EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 		D2FF167C14B09B8F00CD3EC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2C8CCB114B0A5BF002B637D /* README */,
 				D2FF167D14B09B8F00CD3EC0 /* SlotEffect-Info.plist */,
 				D2FF167E14B09B8F00CD3EC0 /* InfoPlist.strings */,
 				D2FF168114B09B8F00CD3EC0 /* main.m */,
@@ -208,6 +211,7 @@
 				D2FF16A914B09C6A00CD3EC0 /* 08.jpg in Resources */,
 				D2FF16AA14B09C6A00CD3EC0 /* 09.jpg in Resources */,
 				D2FF16AB14B09C6A00CD3EC0 /* 10.jpg in Resources */,
+				D2C8CCB214B0A5BF002B637D /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +337,7 @@
 				D2FF169114B09B8F00CD3EC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
