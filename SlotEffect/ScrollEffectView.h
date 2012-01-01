@@ -16,7 +16,7 @@
     UIView      *_baseView;
     int         offset;
 }
-- (void)initImageList;
+- (void)initImageView;
 - (void)startAnimation;
 - (void)endAnimation;
 

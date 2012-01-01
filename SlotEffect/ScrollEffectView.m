@@ -14,13 +14,14 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // initilize
-        [self initImageList];
+        // initialize
+        [self initImageView];
     }
     return self;
 }
 
-- (void)initImageList{
+// initialize image view
+- (void)initImageView{
     _baseView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kImageWidth, kImageHeight)];
     
     UIImage* image;
@@ -42,11 +43,7 @@
     
     // Layer
     CALayer *layer = self.layer;
-    // 最終的に表示したい絵をここで設定しておく
-    //layer.contents = (id)image.CGImage;
-//    layer.opacity = 1.0f;
-    layer.opaque = YES;
-    
+    layer.opaque = YES;    
     layer.bounds = CGRectMake(0, 0, kImageWidth, kImageHeight);
     layer.masksToBounds = YES;
 }
@@ -54,7 +51,9 @@
 // start animation
 - (void)startAnimation
 {
-    [self initImageList];
+    // at first,initialize image view.
+    [self initImageView];
+    
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     [_baseView setCenter:CGPointMake(kImageWidth/2, -kImageHeight/2)];
@@ -77,7 +76,8 @@
 // stop animation
 - (void)endAnimation
 {
-    //[_baseView removeFromSuperview];
+    // if you want to do something at end of process.
+    // use this method.
 }
 
 @end
