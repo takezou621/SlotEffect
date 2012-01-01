@@ -22,6 +22,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    effectView = [[ScrollEffectView alloc] initWithFrame:CGRectMake(129, 120, 63, 63)];
+    [self.view addSubview:effectView];       
 }
 
 - (void)viewDidUnload
@@ -57,4 +60,7 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)startAction:(id)sender {
+    [effectView startAnimation];
+}
 @end

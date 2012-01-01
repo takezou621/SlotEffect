@@ -15,6 +15,18 @@
 		D2FF168614B09B8F00CD3EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF168514B09B8F00CD3EC0 /* AppDelegate.m */; };
 		D2FF168914B09B8F00CD3EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF168814B09B8F00CD3EC0 /* ViewController.m */; };
 		D2FF168C14B09B8F00CD3EC0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FF168A14B09B8F00CD3EC0 /* ViewController.xib */; };
+		D2FF169414B09B9E00CD3EC0 /* ScrollEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF169314B09B9E00CD3EC0 /* ScrollEffectView.m */; };
+		D2FF169614B09C4900CD3EC0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF169514B09C4900CD3EC0 /* QuartzCore.framework */; };
+		D2FF16A214B09C6A00CD3EC0 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169814B09C6A00CD3EC0 /* 01.jpg */; };
+		D2FF16A314B09C6A00CD3EC0 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169914B09C6A00CD3EC0 /* 02.jpg */; };
+		D2FF16A414B09C6A00CD3EC0 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169A14B09C6A00CD3EC0 /* 03.jpg */; };
+		D2FF16A514B09C6A00CD3EC0 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169B14B09C6A00CD3EC0 /* 04.jpg */; };
+		D2FF16A614B09C6A00CD3EC0 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169C14B09C6A00CD3EC0 /* 05.jpg */; };
+		D2FF16A714B09C6A00CD3EC0 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169D14B09C6A00CD3EC0 /* 06.jpg */; };
+		D2FF16A814B09C6A00CD3EC0 /* 07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169E14B09C6A00CD3EC0 /* 07.jpg */; };
+		D2FF16A914B09C6A00CD3EC0 /* 08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF169F14B09C6A00CD3EC0 /* 08.jpg */; };
+		D2FF16AA14B09C6A00CD3EC0 /* 09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF16A014B09C6A00CD3EC0 /* 09.jpg */; };
+		D2FF16AB14B09C6A00CD3EC0 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2FF16A114B09C6A00CD3EC0 /* 10.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +34,28 @@
 		D2FF167514B09B8F00CD3EC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2FF167714B09B8F00CD3EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2FF167914B09B8F00CD3EC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D2FF167D14B09B8F00CD3EC0 /* SlotEffect-Info.plist */ = {isa = PBXFileReference; path = "SlotEffect-Info.plist"; sourceTree = "<group>"; };
+		D2FF167D14B09B8F00CD3EC0 /* SlotEffect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlotEffect-Info.plist"; sourceTree = "<group>"; };
 		D2FF167F14B09B8F00CD3EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2FF168114B09B8F00CD3EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D2FF168314B09B8F00CD3EC0 /* SlotEffect-Prefix.pch */ = {isa = PBXFileReference; path = "SlotEffect-Prefix.pch"; sourceTree = "<group>"; };
-		D2FF168414B09B8F00CD3EC0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2FF168314B09B8F00CD3EC0 /* SlotEffect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlotEffect-Prefix.pch"; sourceTree = "<group>"; };
+		D2FF168414B09B8F00CD3EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2FF168514B09B8F00CD3EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2FF168714B09B8F00CD3EC0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D2FF168714B09B8F00CD3EC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D2FF168814B09B8F00CD3EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D2FF168B14B09B8F00CD3EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D2FF169214B09B9E00CD3EC0 /* ScrollEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollEffectView.h; sourceTree = "<group>"; };
+		D2FF169314B09B9E00CD3EC0 /* ScrollEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollEffectView.m; sourceTree = "<group>"; };
+		D2FF169514B09C4900CD3EC0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D2FF169814B09C6A00CD3EC0 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		D2FF169914B09C6A00CD3EC0 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		D2FF169A14B09C6A00CD3EC0 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 03.jpg; sourceTree = "<group>"; };
+		D2FF169B14B09C6A00CD3EC0 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 04.jpg; sourceTree = "<group>"; };
+		D2FF169C14B09C6A00CD3EC0 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 05.jpg; sourceTree = "<group>"; };
+		D2FF169D14B09C6A00CD3EC0 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 06.jpg; sourceTree = "<group>"; };
+		D2FF169E14B09C6A00CD3EC0 /* 07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 07.jpg; sourceTree = "<group>"; };
+		D2FF169F14B09C6A00CD3EC0 /* 08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 08.jpg; sourceTree = "<group>"; };
+		D2FF16A014B09C6A00CD3EC0 /* 09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 09.jpg; sourceTree = "<group>"; };
+		D2FF16A114B09C6A00CD3EC0 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FF169614B09C4900CD3EC0 /* QuartzCore.framework in Frameworks */,
 				D2FF167614B09B8F00CD3EC0 /* UIKit.framework in Frameworks */,
 				D2FF167814B09B8F00CD3EC0 /* Foundation.framework in Frameworks */,
 				D2FF167A14B09B8F00CD3EC0 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +93,7 @@
 		D2FF167414B09B8F00CD3EC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D2FF169514B09C4900CD3EC0 /* QuartzCore.framework */,
 				D2FF167514B09B8F00CD3EC0 /* UIKit.framework */,
 				D2FF167714B09B8F00CD3EC0 /* Foundation.framework */,
 				D2FF167914B09B8F00CD3EC0 /* CoreGraphics.framework */,
@@ -77,10 +104,13 @@
 		D2FF167B14B09B8F00CD3EC0 /* SlotEffect */ = {
 			isa = PBXGroup;
 			children = (
+				D2FF169714B09C5600CD3EC0 /* images */,
 				D2FF168414B09B8F00CD3EC0 /* AppDelegate.h */,
 				D2FF168514B09B8F00CD3EC0 /* AppDelegate.m */,
 				D2FF168714B09B8F00CD3EC0 /* ViewController.h */,
 				D2FF168814B09B8F00CD3EC0 /* ViewController.m */,
+				D2FF169214B09B9E00CD3EC0 /* ScrollEffectView.h */,
+				D2FF169314B09B9E00CD3EC0 /* ScrollEffectView.m */,
 				D2FF168A14B09B8F00CD3EC0 /* ViewController.xib */,
 				D2FF167C14B09B8F00CD3EC0 /* Supporting Files */,
 			);
@@ -96,6 +126,23 @@
 				D2FF168314B09B8F00CD3EC0 /* SlotEffect-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2FF169714B09C5600CD3EC0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF169814B09C6A00CD3EC0 /* 01.jpg */,
+				D2FF169914B09C6A00CD3EC0 /* 02.jpg */,
+				D2FF169A14B09C6A00CD3EC0 /* 03.jpg */,
+				D2FF169B14B09C6A00CD3EC0 /* 04.jpg */,
+				D2FF169C14B09C6A00CD3EC0 /* 05.jpg */,
+				D2FF169D14B09C6A00CD3EC0 /* 06.jpg */,
+				D2FF169E14B09C6A00CD3EC0 /* 07.jpg */,
+				D2FF169F14B09C6A00CD3EC0 /* 08.jpg */,
+				D2FF16A014B09C6A00CD3EC0 /* 09.jpg */,
+				D2FF16A114B09C6A00CD3EC0 /* 10.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +198,16 @@
 			files = (
 				D2FF168014B09B8F00CD3EC0 /* InfoPlist.strings in Resources */,
 				D2FF168C14B09B8F00CD3EC0 /* ViewController.xib in Resources */,
+				D2FF16A214B09C6A00CD3EC0 /* 01.jpg in Resources */,
+				D2FF16A314B09C6A00CD3EC0 /* 02.jpg in Resources */,
+				D2FF16A414B09C6A00CD3EC0 /* 03.jpg in Resources */,
+				D2FF16A514B09C6A00CD3EC0 /* 04.jpg in Resources */,
+				D2FF16A614B09C6A00CD3EC0 /* 05.jpg in Resources */,
+				D2FF16A714B09C6A00CD3EC0 /* 06.jpg in Resources */,
+				D2FF16A814B09C6A00CD3EC0 /* 07.jpg in Resources */,
+				D2FF16A914B09C6A00CD3EC0 /* 08.jpg in Resources */,
+				D2FF16AA14B09C6A00CD3EC0 /* 09.jpg in Resources */,
+				D2FF16AB14B09C6A00CD3EC0 /* 10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +221,7 @@
 				D2FF168214B09B8F00CD3EC0 /* main.m in Sources */,
 				D2FF168614B09B8F00CD3EC0 /* AppDelegate.m in Sources */,
 				D2FF168914B09B8F00CD3EC0 /* ViewController.m in Sources */,
+				D2FF169414B09B9E00CD3EC0 /* ScrollEffectView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

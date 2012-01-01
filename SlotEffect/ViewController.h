@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScrollEffectView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    ScrollEffectView* effectView;
+}
+- (IBAction)startAction:(id)sender;
 
 @end
