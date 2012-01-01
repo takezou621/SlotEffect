@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2FF167614B09B8F00CD3EC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF167514B09B8F00CD3EC0 /* UIKit.framework */; };
+		D2FF167814B09B8F00CD3EC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF167714B09B8F00CD3EC0 /* Foundation.framework */; };
+		D2FF167A14B09B8F00CD3EC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2FF167914B09B8F00CD3EC0 /* CoreGraphics.framework */; };
+		D2FF168014B09B8F00CD3EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2FF167E14B09B8F00CD3EC0 /* InfoPlist.strings */; };
+		D2FF168214B09B8F00CD3EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF168114B09B8F00CD3EC0 /* main.m */; };
+		D2FF168614B09B8F00CD3EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF168514B09B8F00CD3EC0 /* AppDelegate.m */; };
+		D2FF168914B09B8F00CD3EC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FF168814B09B8F00CD3EC0 /* ViewController.m */; };
+		D2FF168C14B09B8F00CD3EC0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FF168A14B09B8F00CD3EC0 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2FF167114B09B8F00CD3EC0 /* SlotEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FF167514B09B8F00CD3EC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D2FF167714B09B8F00CD3EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2FF167914B09B8F00CD3EC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D2FF167D14B09B8F00CD3EC0 /* SlotEffect-Info.plist */ = {isa = PBXFileReference; path = "SlotEffect-Info.plist"; sourceTree = "<group>"; };
+		D2FF167F14B09B8F00CD3EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2FF168114B09B8F00CD3EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2FF168314B09B8F00CD3EC0 /* SlotEffect-Prefix.pch */ = {isa = PBXFileReference; path = "SlotEffect-Prefix.pch"; sourceTree = "<group>"; };
+		D2FF168414B09B8F00CD3EC0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2FF168514B09B8F00CD3EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2FF168714B09B8F00CD3EC0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D2FF168814B09B8F00CD3EC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2FF168B14B09B8F00CD3EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2FF166E14B09B8F00CD3EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FF167614B09B8F00CD3EC0 /* UIKit.framework in Frameworks */,
+				D2FF167814B09B8F00CD3EC0 /* Foundation.framework in Frameworks */,
+				D2FF167A14B09B8F00CD3EC0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2FF166614B09B8F00CD3EC0 = {
+			isa = PBXGroup;
+			children = (
+				D2FF167B14B09B8F00CD3EC0 /* SlotEffect */,
+				D2FF167414B09B8F00CD3EC0 /* Frameworks */,
+				D2FF167214B09B8F00CD3EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2FF167214B09B8F00CD3EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF167114B09B8F00CD3EC0 /* SlotEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2FF167414B09B8F00CD3EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF167514B09B8F00CD3EC0 /* UIKit.framework */,
+				D2FF167714B09B8F00CD3EC0 /* Foundation.framework */,
+				D2FF167914B09B8F00CD3EC0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2FF167B14B09B8F00CD3EC0 /* SlotEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF168414B09B8F00CD3EC0 /* AppDelegate.h */,
+				D2FF168514B09B8F00CD3EC0 /* AppDelegate.m */,
+				D2FF168714B09B8F00CD3EC0 /* ViewController.h */,
+				D2FF168814B09B8F00CD3EC0 /* ViewController.m */,
+				D2FF168A14B09B8F00CD3EC0 /* ViewController.xib */,
+				D2FF167C14B09B8F00CD3EC0 /* Supporting Files */,
+			);
+			path = SlotEffect;
+			sourceTree = "<group>";
+		};
+		D2FF167C14B09B8F00CD3EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF167D14B09B8F00CD3EC0 /* SlotEffect-Info.plist */,
+				D2FF167E14B09B8F00CD3EC0 /* InfoPlist.strings */,
+				D2FF168114B09B8F00CD3EC0 /* main.m */,
+				D2FF168314B09B8F00CD3EC0 /* SlotEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2FF167014B09B8F00CD3EC0 /* SlotEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2FF168F14B09B8F00CD3EC0 /* Build configuration list for PBXNativeTarget "SlotEffect" */;
+			buildPhases = (
+				D2FF166D14B09B8F00CD3EC0 /* Sources */,
+				D2FF166E14B09B8F00CD3EC0 /* Frameworks */,
+				D2FF166F14B09B8F00CD3EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlotEffect;
+			productName = SlotEffect;
+			productReference = D2FF167114B09B8F00CD3EC0 /* SlotEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2FF166814B09B8F00CD3EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = None;
+			};
+			buildConfigurationList = D2FF166B14B09B8F00CD3EC0 /* Build configuration list for PBXProject "SlotEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2FF166614B09B8F00CD3EC0;
+			productRefGroup = D2FF167214B09B8F00CD3EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2FF167014B09B8F00CD3EC0 /* SlotEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2FF166F14B09B8F00CD3EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FF168014B09B8F00CD3EC0 /* InfoPlist.strings in Resources */,
+				D2FF168C14B09B8F00CD3EC0 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2FF166D14B09B8F00CD3EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FF168214B09B8F00CD3EC0 /* main.m in Sources */,
+				D2FF168614B09B8F00CD3EC0 /* AppDelegate.m in Sources */,
+				D2FF168914B09B8F00CD3EC0 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2FF167E14B09B8F00CD3EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FF167F14B09B8F00CD3EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2FF168A14B09B8F00CD3EC0 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2FF168B14B09B8F00CD3EC0 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2FF168D14B09B8F00CD3EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D2FF168E14B09B8F00CD3EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2FF169014B09B8F00CD3EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotEffect/SlotEffect-Prefix.pch";
+				INFOPLIST_FILE = "SlotEffect/SlotEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2FF169114B09B8F00CD3EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlotEffect/SlotEffect-Prefix.pch";
+				INFOPLIST_FILE = "SlotEffect/SlotEffect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2FF166B14B09B8F00CD3EC0 /* Build configuration list for PBXProject "SlotEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FF168D14B09B8F00CD3EC0 /* Debug */,
+				D2FF168E14B09B8F00CD3EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2FF168F14B09B8F00CD3EC0 /* Build configuration list for PBXNativeTarget "SlotEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2FF169014B09B8F00CD3EC0 /* Debug */,
+				D2FF169114B09B8F00CD3EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2FF166814B09B8F00CD3EC0 /* Project object */;
+}
