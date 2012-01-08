@@ -24,7 +24,7 @@
 
 @property(nonatomic,assign)id<ScrollEffectViewDelegate>   delegate;
 
-- (void)initImageList;
+- (void)initImageView;
 - (void)startAnimation;
 - (void)endAnimation;
 
