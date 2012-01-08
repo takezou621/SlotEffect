@@ -24,6 +24,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     effectView = [[ScrollEffectView alloc] initWithFrame:CGRectMake(129, 120, 63, 63)];
+    effectView.delegate = self;
     [self.view addSubview:effectView];       
 }
 
@@ -62,5 +63,11 @@
 
 - (IBAction)startAction:(id)sender {
     [effectView startAnimation];
+}
+
+#pragma mark - ScrollEffectView Delegate
+- (void) scrollDidEnded
+{
+    NSLog(@"scrollDidEnded called.");
 }
 @end

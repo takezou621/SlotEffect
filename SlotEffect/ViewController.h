@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "ScrollEffectView.h"
 
-@interface ViewController : UIViewController{
-    ScrollEffectView* effectView;
+@interface ViewController : UIViewController<ScrollEffectViewDelegate>
+{
+    ScrollEffectView        *effectView;
 }
+
 - (IBAction)startAction:(id)sender;
 
 @end

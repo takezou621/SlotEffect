@@ -11,11 +11,19 @@
 #define kImageWidth     62
 #define kAnimationDuration  6.0
 
+@protocol ScrollEffectViewDelegate <NSObject>
+-(void)scrollDidEnded;
+@end
+
 @interface ScrollEffectView : UIView
 {
-    UIView      *_baseView;
-    int         offset;
+    UIView                  *_baseView;
+    int                     offset;
+    id<ScrollEffectViewDelegate> __unsafe_unretained delegate;
 }
+
+@property(nonatomic,assign)id<ScrollEffectViewDelegate>   delegate;
+
 - (void)initImageList;
 - (void)startAnimation;
 - (void)endAnimation;

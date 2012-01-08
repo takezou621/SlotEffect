@@ -9,6 +9,7 @@
 #import <QuartzCore/CoreAnimation.h>
 
 @implementation ScrollEffectView
+@synthesize delegate;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -43,8 +44,6 @@
     // Layer
     CALayer *layer = self.layer;
     // 最終的に表示したい絵をここで設定しておく
-    //layer.contents = (id)image.CGImage;
-//    layer.opacity = 1.0f;
     layer.opaque = YES;
     
     layer.bounds = CGRectMake(0, 0, kImageWidth, kImageHeight);
@@ -77,7 +76,9 @@
 // stop animation
 - (void)endAnimation
 {
-    //[_baseView removeFromSuperview];
+    if ([self.delegate respondsToSelector:@selector(scrollDidEnded)]) {
+        [self.delegate scrollDidEnded];
+    }
 }
 
 @end
