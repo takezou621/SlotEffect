@@ -15,13 +15,14 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // initilize
-        [self initImageList];
+        // initialize
+        [self initImageView];
     }
     return self;
 }
 
-- (void)initImageList{
+// initialize image view
+- (void)initImageView{
     _baseView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kImageWidth, kImageHeight)];
     
     UIImage* image;
@@ -53,7 +54,9 @@
 // start animation
 - (void)startAnimation
 {
-    [self initImageList];
+    // at first,initialize image view.
+    [self initImageView];
+    
     CGContextRef context = UIGraphicsGetCurrentContext();
     
     [_baseView setCenter:CGPointMake(kImageWidth/2, -kImageHeight/2)];
